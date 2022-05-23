@@ -115,15 +115,23 @@ There are many factors that consumers take into consideration when evaluating a 
 
 </p>
 
-- What metric or metrics are you going to test?
+#### What metric or metrics are you going to test?
 
 <p align="center">
 
-To narrow down our test, we should evaluate MechaCar's carrying capacity, in cubic inches, in comparison to various competitors' vehicles.
+Collecting data for comparable models across all major manufacturers for past 3 years for the following metrics:
+
+*  Safety Feature Rating: **Independent Variable**
+*  Current Price (Selling): **Dependent Variable**
+*  Drive Package : **Independent Variable**
+*  Engine (Electric, Hybrid, Gasoline / Conventional): **Independent Variable**
+*  Resale Value: **Independent Variable**
+*  Average Annual Cost of ownership (Maintenance): **Independent Variable**
+*  MPG (Gasoline Efficiency): **Independent Variable**
 
 </p>
 
-- What is the null hypothesis or alternative hypothesis?
+#### What is the null hypothesis or alternative hypothesis?
 
 <p align="center">
 
@@ -132,18 +140,19 @@ H<sub>a</sub>: MechaCar prototypes' average carrying capacity is statistically a
 
 </p>
 
-- What statistical test would you use to test the hypothesis? And why?
+#### What statistical test would you use to test the hypothesis? And why?
 
 <p align="center">
 
-The best statistical test for this would be two-sample t-tests.
+A two-sample t-tests would be appropiate for the hypothesis. Multiple samples is desirable to minimize bias and optimize accurate results. 
 
 </p>
 
-- What data is needed to run the statistical test?
+#### What data is needed to run the statistical test?
 
 <p align="center">
 
-We would need to gather cubic space data from the carrying compartments of all MechaCar prototypes, as well as from all major competitor vehicles.
+A **multiple linear regression** would be used to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable); which combination has the greatest impact on price.
+
 
 </p>
